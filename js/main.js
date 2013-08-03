@@ -44,7 +44,10 @@ $(document).ready(function(){
             easing: 'easeInQuad'
         });
     });
-
+    $('a.team').click(function(){
+        $('.mCSB_container').scrollTo( '#teamPage', 1000, {axis:'x'} );
+        return false;
+    })
     /*$(window).load(function(){
         $("body").mCustomScrollbar({
             horizontalScroll: true

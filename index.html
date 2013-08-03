@@ -230,34 +230,36 @@
                 </li>
             </ul>
         </div>
-        <div id="contact">
-            <div class="clearfix">
-                <div class="bannerText">
-                    We would <span>LOVE</span> <br />
-                    to hear from  <br />
-                    you!
+        <div class="page" id="contact">
+            <div class="contact-wrapper">
+                <div class="clearfix">
+                    <div class="bannerText">
+                        We would <span>LOVE</span> <br />
+                        to hear from  <br />
+                        you!
+                    </div>
+                    <div class="bannerImg">
+                        <img src="img/contactBanner.jpg" alt="" />
+                    </div>
                 </div>
-                <div class="bannerImg">
-                    <img src="img/contactBanner.jpg" alt="" />
-                </div>
-            </div>
-            <div class="contactContent clearfix">
-                <div class="left">
-                    <img src="img/mailImage.jpg" alt="" />
-                </div>
-                <div class="right">
-                    <h4>Drop us a line</h4>
-                    <form class="span4">
-                        <fieldset>
-                            <input type="text" class="span2" placeholder="Name">
-                            <input type="text" class="span2" placeholder="Last Name">
-                            <input type="text" class="span4" placeholder="Email">
-                            <input type="text" class="span4" placeholder="I am getting in touch regarding">
-                            <input type="text" class="span4" placeholder="Your Message">
+                <div class="contactContent clearfix">
+                    <div class="left">
+                        <img src="img/mailImage.jpg" alt="" />
+                    </div>
+                    <div class="right">
+                        <h4>Drop us a line</h4>
+                        <form class="span4">
+                            <fieldset>
+                                <input type="text" class="span2" placeholder="Name">
+                                <input type="text" class="span2" placeholder="Last Name">
+                                <input type="text" class="span4" placeholder="Email">
+                                <input type="text" class="span4" placeholder="I am getting in touch regarding">
+                                <input type="text" class="span4" placeholder="Your Message">
 
-                            <button type="submit" class="rBtn">send</button>
-                        </fieldset>
-                    </form>
+                                <button type="submit" class="rBtn">send</button>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,7 +278,8 @@
                 $(window).load(function(){
                     //setTimeout(function(){
                         $("body").mCustomScrollbar({
-                            horizontalScroll:true
+                            horizontalScroll:true,
+                            scrollInertia:1000
                         },5000);
 
                     //})
