@@ -1,0 +1,33 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.projectSlide {
+	background: #ff2834;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 15%;
+}
+.projectSlide img {
+    position: absolute;
+    height: 100%;
+    max-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
