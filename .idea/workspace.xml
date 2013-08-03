@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fffa724-69fb-4eb1-ba8c-4af979720a84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style_common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="project-portfolio.iws" />
@@ -34,10 +26,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="145" column="60" selection-start="6972" selection-end="6972" vertical-scroll-proportion="-0.11181434">
+                <state line="46" column="24" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.96413505">
                   <folding />
                 </state>
               </provider>
@@ -110,7 +102,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="139" column="24" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.65688074">
@@ -135,8 +127,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -401,16 +393,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="60" selection-start="6972" selection-end="6972" vertical-scroll-proportion="-0.11181434">
+        <state line="139" column="24" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.65688074">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="24" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.65688074">
+        <state line="46" column="24" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.96413505">
           <folding />
         </state>
       </provider>
