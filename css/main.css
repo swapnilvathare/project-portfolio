@@ -277,10 +277,13 @@ li.kwicks-collapsed .overlay {
 #process {
     margin-top: 0;
     position: relative;
+    background: #eeeeee;
 }
 #process ul {
     position: absolute;
     top: 50%;
+    left: 50%;
+    margin-left: -530px;
     margin-top: -80px;
 }
 #process li {
@@ -288,20 +291,36 @@ li.kwicks-collapsed .overlay {
     text-align: center;
     width: 160px;
     float: left;
-    padding-right: 25px;
+    padding-right: 40px;
     margin-right: 25px;
     background: url("../img/arrow.png") no-repeat right center;
+    font-family: titillium_webregular;
 }
 #process li:last-child {
     background: none;
     padding-right: 0;
     margin-right: 0;
 }
+#process .processName {
+    color: #aaaaaa;
+    font-size: 30px;
+    line-height: 32px;
+}
+#process h2 {
+    font-size: 50px;
+    line-height: 62px;
+    color: #aaaaaa;
+    font-family: titillium_webregular;
+    margin-left: 50px;
+}
+#process h2 span {
+    color: #84c225;
+}
 /* ==========================================================================
     Contact page custom styles
    ========================================================================== */
 
-#contact {
+#contact  {
     padding: 100px 0 0 0;
     margin-left: 50px;
     font-size: 60px;
