@@ -292,6 +292,7 @@ li.kwicks-collapsed .overlay {
     font-size: 60px;
     line-height: 62px;
     color: #aaaaaa;
+    font-family: titillium_webregular;
 }
 .bannerText {
     float: left;
@@ -306,11 +307,26 @@ li.kwicks-collapsed .overlay {
 #contact input[type="text"], textarea {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #4d4d4d;
+    border-bottom: 1px solid #cccccc;
     border-radius: 0;
+    box-shadow: none;
+}
+#contact h4 {
+    color: #84c225;
+    margin-top: 0;
 }
 #contact button {
     background: #84c225;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#contact .left, #contact .right {
+    float: left;
+}
+#contact .left {
+    margin-top: 10px;
+}
+#contact form {
+    margin: 0;
 }
