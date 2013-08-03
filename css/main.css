@@ -311,7 +311,7 @@ li.kwicks-collapsed .overlay {
     line-height: 62px;
     color: #aaaaaa;
     font-family: titillium_webregular;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 #process h2 span {
     color: #84c225;
@@ -360,4 +360,7 @@ li.kwicks-collapsed .overlay {
     margin-top: -273px;
     margin-left: -460px;
     width: 1024px;
+}
+.mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools {
+    z-index: 1000;
 }
