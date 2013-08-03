@@ -3,19 +3,28 @@ var windowWidth = $(window).width();
 var PS = 5;
 var slideSpeed = 800
 var projectSlideWidth = windowWidth/PS;
-$('.projects').height(windowHeight);
-$('.projectSlide').css({
-    height:windowHeight
+$('.projectSlide').height(windowHeight);
+
+$(function() {
+    $('.projectSlide').kwicks({
+        maxSize: '50%',
+        spacing : 0,
+        behavior: 'menu',
+        easing: 'easeInQuad'
+    });
 });
+$(document).ready(function(){
 
+    $('.projectSlide li').css({
+        height: windowHeight
+    });
 
-$('.projectSlide').mouseenter(function(){
-    $(this).stop().animate({
-        width:'40%'
-    },slideSpeed);
 })
-$('.projectSlide').mouseleave(function(){
-    $(this).stop().animate({
-        width:'15%'
-    },slideSpeed);
-})
+/*var windowHeight = $(window).height();
+var windowWidth = $(window).width();
+var PS = 5;
+var slideSpeed = 800
+var projectSlideWidth = windowWidth/PS;
+$('.projectSlide').height(windowHeight);
+var nLi = $('.projectSlide li').length;*/
+
