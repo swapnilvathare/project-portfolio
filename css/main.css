@@ -28,6 +28,10 @@
 body {
     padding-left: 50px;
     font-family: helvetica;
+    /*overflow-y: hidden;*/
+}
+.page{
+    float: left;
 }
 ul, li {
     padding: 0;
@@ -74,6 +78,14 @@ a.navOpener {
 a.weboniseLogo {
     background: url("../img/weboniseLogo.jpg");
     bottom: 18px;
+}
+.main {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -320px;
+    margin-left: -520px;
 }
 ul.mainMenu {
     background: #0099dd;
@@ -155,6 +167,9 @@ ul.mainMenu li:first-child {
 /* ==========================================================================
    team page custom styles
    ========================================================================== */
+#teamPage, #contact {
+    position: relative;
+}
 .icons {
     width: 45px;
     height: 45px;
@@ -183,7 +198,7 @@ ul.mainMenu li:first-child {
 .view {
     margin: 0 20px 20px 0
 }
-.main,#process {
+#process {
     margin: 20px 0 0 30px;
 }
 .designation {
@@ -329,4 +344,11 @@ li.kwicks-collapsed .overlay {
 }
 #contact form {
     margin: 0;
+}
+.contact-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -273px;
+    margin-left:    -460px;
 }
