@@ -361,3 +361,6 @@ li.kwicks-collapsed .overlay {
     margin-left: -460px;
     width: 1024px;
 }
+.mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools {
+    z-index: 1000;
+}
