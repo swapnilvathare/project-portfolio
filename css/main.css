@@ -201,6 +201,58 @@ ul.mainMenu li:first-child {
     text-transform: capitalize;
     font-weight: normal;
 }
+@keyframes addShade
+{
+from {opacity:0}
+to {opacity:0.5}
+}
+
+@-webkit-keyframes addShade /* Safari and Chrome */
+{
+from {opacity:0}
+to {opacity:0.5}
+}
+@keyframes removeShade
+{
+from {opacity:0.5}
+to {opacity:0}
+}
+
+@-webkit-keyframes removeShade /* Safari and Chrome */
+{
+from {opacity:0.5}
+to {opacity:0}
+}
+.kwicks-collapsed .overlay
+{
+    animation: addShade 1s;
+    -webkit-animation: addShade 1s; /* Safari and Chrome */
+}
+.kwicks-expanded .overlay
+{
+    animation: removeShade 1s;
+    -webkit-animation: removeShade 1s; /* Safari and Chrome */
+}
+li.kwicks-expanded .overlay {
+    opacity:0;
+    background: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count: 1;
+}
+li.kwicks-collapsed .overlay {
+    opacity:0.5;
+    background: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count: 1;
+}
 
 
 

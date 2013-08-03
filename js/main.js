@@ -7,7 +7,7 @@ $('.projectSlide').height(windowHeight);
 
 $(function() {
     $('.projectSlide').kwicks({
-        maxSize: '50%',
+        maxSize: '35%',
         spacing : 0,
         behavior: 'menu',
         easing: 'easeInQuad'
