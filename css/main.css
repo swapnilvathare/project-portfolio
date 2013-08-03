@@ -25,22 +25,32 @@
     overflow: hidden;
     width: 15%;
 } */
+body {
+    padding-left: 50px;
+}
 ul, li {
     padding: 0;
     margin: 0;
 }
 .leftMenu {
-    width: 50px;
+    width: 200px;
     height: 100%;
     min-height: 200px;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -150px;
     background-color: #fff;
     -webkit-box-shadow: 1px 0 8px rgba(0,0,0,.2);
     -moz-box-shadow: 1px 0 8px rgba(0,0,0,.2);
     box-shadow: 1px 0 8px rgba(0,0,0,.2);
     z-index: 100;
+}
+.visibleMenu {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 50px;
 }
 a.logo, a.navOpener, a.weboniseLogo {
     height: 30px;
@@ -62,6 +72,58 @@ a.navOpener {
 a.weboniseLogo {
     background: url("../img/weboniseLogo.jpg");
     bottom: 18px;
+}
+ul.mainMenu {
+    background: #0099dd;
+    height: 100%;
+    position: absolute;
+    width: 150px;
+}
+ul.mainMenu li {
+    height: 20%;
+    width: 150px;
+    border-top: 1px solid #0089c6;
+    line-height: 0;
+}
+ul.mainMenu li a {
+    height: 100%;
+    width: 150px;
+    display:block;
+}
+
+ul.mainMenu li a.work {
+    background: url("../img/workIcon.jpg") center no-repeat;
+}
+ul.mainMenu li a.process {
+    background: url("../img/processIcon.jpg") center no-repeat;
+}
+ul.mainMenu li a.team {
+    background: url("../img/teamIcon.jpg") center no-repeat;
+}
+ul.mainMenu li a.contact {
+    background: url("../img/contactIcon.jpg") center no-repeat;
+}
+ul.mainMenu li a.share {
+    background: url("../img/shareIcon.jpg") center no-repeat;
+}
+
+ul.mainMenu li a.work:hover, ul.mainMenu li.active a.work {
+    background: url("../img/workIconActive.jpg") center no-repeat;
+}
+ul.mainMenu li a.process:hover, ul.mainMenu li.active a.process {
+    background: url("../img/processIconActive.jpg") center no-repeat;
+}
+ul.mainMenu li a.team:hover, ul.mainMenu li.active a.team {
+    background: url("../img/teamIconActive.jpg") center no-repeat;
+}
+ul.mainMenu li a.contact:hover, ul.mainMenu li.active {
+    background: url("../img/contactIconActive.jpg") center no-repeat;
+}
+ul.mainMenu li a.share:hover, ul.mainMenu li.active a.share {
+    background: url("../img/shareIconActive.jpg") center no-repeat;
+}
+ul.mainMenu li:first-child {
+    border-top: 1px solid #0089c6;
 }
 .projectSlide img {
     position: absolute;
