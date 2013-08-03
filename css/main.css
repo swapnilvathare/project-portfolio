@@ -27,10 +27,12 @@
 } */
 body {
     padding-left: 50px;
+    font-family: helvetica;
 }
 ul, li {
     padding: 0;
     margin: 0;
+    list-style: none
 }
 .leftMenu {
     width: 200px;
@@ -181,8 +183,8 @@ ul.mainMenu li:first-child {
 .view {
     margin: 0 20px 20px 0
 }
-.main {
-    margin-top: 20px;
+.main,#process {
+    margin: 20px 0 0 30px;
 }
 .designation {
     color: #ffffff;
@@ -202,6 +204,28 @@ ul.mainMenu li:first-child {
     font-weight: normal;
 }
 
-
+/* ==========================================================================
+   team page custom styles
+   ========================================================================== */
+#process {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+}
+#process li {
+    text-align: center;
+    text-align: center;
+    width: 160px;
+    float: left;
+    padding-right: 25px;
+    margin-right: 25px;
+    background: url("../img/arrow.png") no-repeat right center;
+}
+#process li:last-child {
+    background: none;
+    padding-right: 0;
+    margin-right: 0;
+}
 
 
