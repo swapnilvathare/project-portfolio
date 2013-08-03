@@ -51,6 +51,11 @@ $(document).ready(function(){
         $('.mainMenu li').removeClass('active');
         $(this).parents('li').addClass('active');
         $("body").mCustomScrollbar("scrollTo",targetLink);
+        $('.leftMenu').animate({
+            left: '-150px'
+        },800,'easeOutBounce',function(){
+            $('.navOpener').removeClass('active');
+        })
     });
 })
 /*var windowHeight = $(window).height();
