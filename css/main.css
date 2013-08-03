@@ -326,7 +326,7 @@ li.kwicks-collapsed .overlay {
     line-height: 62px;
     color: #aaaaaa;
     font-family: titillium_webregular;
-    background: url("../img/contact-us-bg.jpg") no-repeat;
+    background: #efefef;
 }
 
 .bannerText span{
@@ -348,7 +348,9 @@ li.kwicks-collapsed .overlay {
     background: #84c225;
     border: none;
     border-radius: 5px;
+    padding: 5px 20px;
     color: #ffffff;
+    font-size: 18px;
 }
 #contact form {
     margin: 0;
@@ -360,6 +362,8 @@ li.kwicks-collapsed .overlay {
     margin-top: -273px;
     margin-left: -460px;
     width: 1024px;
+    background: url("../img/contact-us_03.png") bottom left no-repeat;
+    min-height: 650px;
 }
 .mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools {
     z-index: 1000;
