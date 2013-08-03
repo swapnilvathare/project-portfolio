@@ -257,10 +257,13 @@ li.kwicks-collapsed .overlay {
 }
 
 /* ==========================================================================
-   team page custom styles
+   Process page custom styles
    ========================================================================== */
 #process {
     margin-top: 0;
+    position: relative;
+}
+#process ul {
     position: absolute;
     top: 50%;
     margin-top: -80px;
@@ -279,5 +282,35 @@ li.kwicks-collapsed .overlay {
     padding-right: 0;
     margin-right: 0;
 }
+/* ==========================================================================
+    Contact page custom styles
+   ========================================================================== */
 
-
+#contact {
+    padding: 100px 0 0 0;
+    margin-left: 50px;
+    font-size: 60px;
+    line-height: 62px;
+    color: #aaaaaa;
+}
+.bannerText {
+    float: left;
+}
+.bannerText span{
+    color: #84c225;
+    font-weight: bold;
+}
+.bannerImg {
+    float: left;
+}
+#contact input[type="text"], textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+    border-radius: 0;
+}
+#contact button {
+    background: #84c225;
+    border: none;
+    border-radius: 10px;
+}
