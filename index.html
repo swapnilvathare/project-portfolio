@@ -271,6 +271,17 @@
 
 
         <script src="js/main.js"></script>
-        
+        <script>
+            (function($){
+                $(window).load(function(){
+                    //setTimeout(function(){
+                        $("body").mCustomScrollbar({
+                            horizontalScroll:true
+                        },5000);
+
+                    //})
+                });
+            })(jQuery);
+        </script>
     </body>
 </html>

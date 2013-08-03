@@ -10,8 +10,8 @@ $('.projectSlide').height(windowHeight);
 $(document).ready(function(){
 
     $('body').css({
-        height:windowHeight,
-        width:bodyWidth
+        height:windowHeight
+//        width:bodyWidth
     });
     $('.page').css({
         height:windowHeight,
@@ -42,18 +42,14 @@ $(document).ready(function(){
             spacing : 0,
             behavior: 'menu',
             easing: 'easeInQuad'
-        },function(){
-            $("body").mCustomScrollbar({
-                horizontalScroll: true
-            });
         });
     });
 
-    $(window).load(function(){
+    /*$(window).load(function(){
         $("body").mCustomScrollbar({
             horizontalScroll: true
         });
-    });
+    });*/
 
 })
 /*var windowHeight = $(window).height();
