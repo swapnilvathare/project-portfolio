@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fffa724-69fb-4eb1-ba8c-4af979720a84" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="$PROJECT_DIR$/img/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/menuOpener.jpg" afterPath="$PROJECT_DIR$/img/menuOpener.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slide2.jpg" afterPath="$PROJECT_DIR$/img/slide2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/weboniseLogo.jpg" afterPath="$PROJECT_DIR$/img/weboniseLogo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
@@ -25,10 +30,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="49" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.38922155">
+                <state line="25" column="28" selection-start="1330" selection-end="1338" vertical-scroll-proportion="-11.846154">
                   <folding />
                 </state>
               </provider>
@@ -70,10 +75,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="86" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+                <state line="34" column="21" selection-start="933" selection-end="933" vertical-scroll-proportion="0.66132724">
                   <folding />
                 </state>
               </provider>
@@ -92,10 +97,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="24" selection-start="814" selection-end="814" vertical-scroll-proportion="0.4229858">
+                <state line="26" column="14" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3957346">
                   <folding />
                 </state>
               </provider>
@@ -116,9 +121,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -278,6 +283,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -413,23 +425,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="86" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.38922155">
+        <state line="25" column="28" selection-start="1330" selection-end="1338" vertical-scroll-proportion="-11.846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="24" selection-start="814" selection-end="814" vertical-scroll-proportion="0.4229858">
+        <state line="26" column="14" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3957346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="21" selection-start="933" selection-end="933" vertical-scroll-proportion="0.66132724">
           <folding />
         </state>
       </provider>
