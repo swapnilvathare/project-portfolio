@@ -44,16 +44,14 @@ $(document).ready(function(){
             easing: 'easeInQuad'
         });
     });
-    $('a.team').click(function(){
-        $('.mCSB_container').scrollTo( '#teamPage', 1000, {axis:'x'} );
-        return false;
-    })
-    /*$(window).load(function(){
-        $("body").mCustomScrollbar({
-            horizontalScroll: true
-        });
-    });*/
-
+    $('.mainMenu li:first-child').addClass('active');
+    $('.mainMenu a').click(function(e){
+        e.preventDefault();
+        var targetLink = $(this).attr('href');
+        $('.mainMenu li').removeClass('active');
+        $(this).parents('li').addClass('active');
+        $("body").mCustomScrollbar("scrollTo",targetLink);
+    });
 })
 /*var windowHeight = $(window).height();
 var windowWidth = $(window).width();

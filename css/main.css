@@ -49,7 +49,7 @@ ul, li {
     -webkit-box-shadow: 1px 0 8px rgba(0,0,0,.2);
     -moz-box-shadow: 1px 0 8px rgba(0,0,0,.2);
     box-shadow: 1px 0 8px rgba(0,0,0,.2);
-    z-index: 100;
+    z-index: 400;
 }
 .visibleMenu {
     right: 0;
@@ -130,7 +130,7 @@ ul.mainMenu li a.process:hover, ul.mainMenu li.active a.process {
 ul.mainMenu li a.team:hover, ul.mainMenu li.active a.team {
     background: url("../img/teamIconActive.jpg") center no-repeat;
 }
-ul.mainMenu li a.contact:hover, ul.mainMenu li.active {
+ul.mainMenu li a.contact:hover, ul.mainMenu li.active a.contact {
     background: url("../img/contactIconActive.jpg") center no-repeat;
 }
 ul.mainMenu li a.share:hover, ul.mainMenu li.active a.share {
@@ -167,7 +167,7 @@ ul.mainMenu li:first-child {
 /* ==========================================================================
    team page custom styles
    ========================================================================== */
-#teamPage, #contact {
+#team, #contact {
     position: relative;
 }
 .icons {
@@ -199,7 +199,7 @@ ul.mainMenu li:first-child {
     margin: 0 20px 20px 0
 }
 #process {
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 0;
 }
 .designation {
     color: #ffffff;
@@ -303,7 +303,6 @@ li.kwicks-collapsed .overlay {
 
 #contact {
     padding: 100px 0 0 0;
-    margin-left: 50px;
     font-size: 60px;
     line-height: 62px;
     color: #aaaaaa;
