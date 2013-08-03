@@ -3,18 +3,20 @@ var windowWidth = $(window).width();
 var PS = 5;
 var slideSpeed = 800
 var projectSlideWidth = windowWidth/PS;
+var nPages = $('.page').length;
+var bodyWidth = windowWidth*nPages;
 $('.projectSlide').height(windowHeight);
 
-$(function() {
-    $('.projectSlide').kwicks({
-        maxSize: '35%',
-        spacing : 0,
-        behavior: 'menu',
-        easing: 'easeInQuad'
-    });
-});
 $(document).ready(function(){
 
+    $('body').css({
+        height:windowHeight,
+        width:bodyWidth
+    });
+    $('.page').css({
+        height:windowHeight,
+        width:windowWidth
+    });
     $('.projectSlide li').css({
         height: windowHeight
     });
@@ -33,7 +35,25 @@ $(document).ready(function(){
             })
         }
         return false;
-    })
+    });
+    $(function() {
+        $('.projectSlide').kwicks({
+            maxSize: '35%',
+            spacing : 0,
+            behavior: 'menu',
+            easing: 'easeInQuad'
+        },function(){
+            $("body").mCustomScrollbar({
+                horizontalScroll: true
+            });
+        });
+    });
+
+    $(window).load(function(){
+        $("body").mCustomScrollbar({
+            horizontalScroll: true
+        });
+    });
 
 })
 /*var windowHeight = $(window).height();

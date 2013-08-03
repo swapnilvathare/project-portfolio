@@ -28,6 +28,10 @@
 body {
     padding-left: 50px;
     font-family: helvetica;
+    /*overflow-y: hidden;*/
+}
+.page{
+    float: left;
 }
 ul, li {
     padding: 0;
